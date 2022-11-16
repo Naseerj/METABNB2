@@ -1,0 +1,110 @@
+.footerdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.footie{
+    background-color: black;
+}
+
+.foot1 > h1 {
+    font-size: 18px;
+    color: white;
+    /* font-family: Red Rose;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left; */
+
+}
+.foot1 > p {
+    color: white;
+    font-size: 20px;
+    /* font-family: Red Rose;
+font-size: 14px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left; */
+
+
+}
+.icons{
+    display: grid;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.icondiv{
+    /* background-color: red; */
+    /* background-color: aqua; */
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.foot1{
+    margin-top: 20px;
+}
+.logosec3{
+    padding-top: 20px;
+}
+
+/* .icondiv > img{
+    width: 40px;
+} */
+
+.facebook{
+    width: 18px;
+}
+.twitter{
+    width: 30px;
+}
+.instagram{
+    width: 30px;
+}
+.footie{
+    padding: 20px;
+}
+.header1footer{
+    /* background-color: green; */
+     color: white;
+}
+.fulldiv{
+    margin-top: 80px;
+}
+
+@media (max-width: 700px) {
+    .footerdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .foot1{
+        text-align: center;
+    }
+    .icons{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .fulldiv{
+        margin-top: 0;
+    }
+}
+@media (max-width: 400px) {
+    .footerdiv{
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .foot1{
+        text-align: center;
+    }
+    .icons{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .fulldiv{
+        margin-top: 0;
+    }
+}
